@@ -111,6 +111,9 @@
                                 <state key="normal" title="こうげき" backgroundImage="gold_button.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="attackAction" destination="H8D-Ax-xPM" eventType="touchUpInside" id="z7B-mN-X73"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7t2-tX-0Zd">
                                 <rect key="frame" x="131" y="533" width="107" height="88"/>
@@ -238,6 +241,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wqg-Jy-kI1"/>
                     </view>
+                    <connections>
+                        <outlet property="enemyHPLabel" destination="b7r-jt-LJz" id="zjf-nV-TGK"/>
+                        <outlet property="enemyImageView" destination="mR4-m7-hRr" id="scv-7g-fD0"/>
+                        <outlet property="enemyMPLabel" destination="ESL-po-ZyK" id="rmn-3k-hGn"/>
+                        <outlet property="enemyNameLabel" destination="zzI-oI-czO" id="LHg-oX-I39"/>
+                        <outlet property="playerHPLabel" destination="Klj-cj-f1O" id="oOv-mv-KSp"/>
+                        <outlet property="playerImageView" destination="rYe-Mb-zhH" id="daF-7X-5lE"/>
+                        <outlet property="playerMPLabel" destination="mJa-PB-mdr" id="txW-Sz-Dxj"/>
+                        <outlet property="playerNameLabel" destination="td3-4q-r9g" id="ofz-8u-TFH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VyF-lg-Ive" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
